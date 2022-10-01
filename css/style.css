@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+}
+header{
+    padding: 10px 0;
+    background-color: aliceblue;
+}
+.header-content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.emptext
+{
+    color:rgb(51, 222, 51);
+}
+ 
+.form-content{
+ 
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0px solid green;
+}
+.form
+{
+    width: 65%;
+    padding: 44px 60px;
+    background: #ffffff ;
+    box-shadow: 0px 3px 6px #00000029;
+    border:1px solid #f5f5f5;
+    border-radius: 8px;
+    opacity: 1;
+}
+.form-head{
+    color:#43535f;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    opacity: 1;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border:0px solid green;
+}
+.label
+{
+    min-width: 140px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.text{
+    font-size:16px;
+    color:#42525f;
+    opacity: 1;
+    font-family: Roboto;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+.profile_radio_content{
+    display: flex;
+    flex-direction: row;
+}
+.profile_radio_content > label
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+.selecttag{
+    width: 26%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select{
+    width: 16%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0px 16px 0px 0px;
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+.row-button
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    height: 178%;
+}
+ 
+ 
+ 
+ 
+.maincontent
+{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(222 225 230 / 50%);
+}
+.headercontent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 54%;
+    margin:3% auto;
+}
+.tablediv
+{
+    margin:0px auto;
+    align-items: center;
+}
+table{
+    border-collapse: separate;
+    width: 100%;
+    min-width: 800px;
+    border-spacing: 0 2px;
+}
+td,th{
+    text-align: left;
+    padding: 10px 15px;
+}
+th{
+    background-color: #42525f;
+    color:white;
+}
+tr{
+    background-color: white;
+    border:1px solid black;
+}
+.adduser
+{
+    background: #9fdd1d;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+.search
+{
+    background: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
